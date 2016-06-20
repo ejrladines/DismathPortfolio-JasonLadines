@@ -85,7 +85,8 @@ b.) (p ∨ ¬r) ∧ (q ∨ ¬s)
 
 ##Assigment No. 1:
 
-31.)
+31.) Construct a truth table for each of these compound propositions.
+d.) p ∨ q) → (p ∧ q)  
 
 | p | q | p ∨ q |  p ∧ q  | (p ∨ q) → (p ∧ q)  |
 |---|---|-------|---------|--------------------|
@@ -94,7 +95,8 @@ b.) (p ∨ ¬r) ∧ (q ∨ ¬s)
 | F | T | T     | F       | F                  |
 | F | F | F     | F       | T                  |
 
-33.)
+33.) Construct a truth table for each of these compound propositions.
+e.) (p ↔ q) ⊕ (¬p ↔ ¬r)
 
 | p | q | r | ¬p | ¬r | p ↔ q | ¬p ↔ ¬r | (p ↔ q) ⊕ (¬p ↔ ¬r) |
 |---|---|---|----|----|-------|---------|---------------------|
@@ -107,7 +109,8 @@ b.) (p ∨ ¬r) ∧ (q ∨ ¬s)
 | F | F | T | T  | F  | T     | F       | T                   |
 | F | F | F | T  | T  | T     | T       | F                   |
 
-35.)
+35.) Construct a truth table for each of these compound propositions.
+f.) (¬p ↔ ¬q) ↔ (p ↔ q)
 
 | p | q | ¬p | ¬q | ¬p ↔ ¬q | p ↔ q | (¬p ↔ ¬q) ↔ (p ↔ q) |
 |---|---|----|----|---------|-------|---------------------|
