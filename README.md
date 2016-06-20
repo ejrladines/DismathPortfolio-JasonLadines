@@ -60,7 +60,7 @@ p: Grizzly bears hae been seen in the area.
 q: Hiking is safe on the trail.
 r: Berries are ripe along the trail.
 b.) Grizzly bears have not been seen in the area and hiking on the trail is safe, but berries are ripe along the trail.
-Answer: ¬p∧q∧r
+Answer: ¬p ∧ q ∧ r 
 f.) Hiking is not safe on the trail whenever grizzly bears have been seen in the area and berries are ripe along the trail.
 Answer: (p ∧ r) → ¬q
 
@@ -85,3 +85,33 @@ b.) (p ∨ ¬r) ∧ (q ∨ ¬s)
 
 ##Assigment No. 1:
 
+31.)
+
+| p | q | p ∨ q |  p ∧ q  | (p ∨ q) → (p ∧ q)  |
+|---|---|-------|---------|--------------------|
+| T | T | T     | T       | T                  |
+| T | F | T     | F       | F                  |
+| F | T | T     | F       | F                  |
+| F | F | F     | F       | T                  |
+
+33.)
+
+| p | q | r | ¬p | ¬r | p ↔ q | ¬p ↔ ¬r | (p ↔ q) ⊕ (¬p ↔ ¬r) |
+|---|---|---|----|----|-------|---------|---------------------|
+| T | T | T | F  | F  | T     | T       | F                   |
+| T | T | F | F  | T  | T     | F       | T                   |
+| T | F | T | F  | F  | F     | T       | T                   |
+| T | F | F | F  | T  | F     | F       | F                   |
+| F | T | T | T  | F  | F     | F       | F                   |
+| F | T | F | T  | T  | F     | T       | T                   |
+| F | F | T | T  | F  | T     | F       | T                   |
+| F | F | F | T  | T  | T     | T       | F                   |
+
+35.)
+
+| p | q | ¬p | ¬q | ¬p ↔ ¬q | p ↔ q | (¬p ↔ ¬q) ↔ (p ↔ q) |
+|---|---|----|----|---------|-------|---------------------|
+| T | T | F  | F  | T       | T     | T                   |
+| T | F | F  | T  | F       | F     | T                   |
+| F | T | T  | F  | F       | F     | T                   |
+| F | F | T  | T  | T       | T     | T                   |
